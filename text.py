@@ -1,10 +1,8 @@
-def FindMin(a,b):
-    if a>b:
-        return b
-    else:
-        return a
-def FindMax(a,b):
-    if a >b:
-        return a
-    else:
-        return b 
+def findminmax(a,b):
+   S=[]
+   S.append(a,b)
+   S.sort()
+   max=S[-1]
+   min=S[0]
+   return min
+
